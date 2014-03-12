@@ -46,6 +46,7 @@ _spawnCrate addMagazineCargoGlobal ["ItemCanvas", _numItems * 50];
 _spawnCrate addMagazineCargoGlobal ["ItemComboLock", _numItems * 50];
 _spawnCrate addMagazineCargoGlobal ["ItemCorrugated", _numItems * 50];
 _spawnCrate addMagazineCargoGlobal ["ItemFireBarrel_Kit", _numItems * 50];
+_spawnCrate addMagazineCargoGlobal ["ItemFuelBarrel", _numItems * 50];
 _spawnCrate addMagazineCargoGlobal ["ItemFuelBarrelEmpty", _numItems * 50];
 _spawnCrate addMagazineCargoGlobal ["ItemFuelPump", _numItems * 50];
 _spawnCrate addMagazineCargoGlobal ["ItemGenerator", _numItems * 50];
@@ -105,6 +106,10 @@ _spawnCrate addMagazineCargoGlobal ["wooden_shed_kit", _numItems * 50];
 _spawnCrate addMagazineCargoGlobal ["wood_ramp_kit", _numItems * 50];
 _spawnCrate addMagazineCargoGlobal ["wood_shack_kit", _numItems * 50];
 _spawnCrate addMagazineCargoGlobal ["workbench_kit", _numItems * 50];
+_spawnCrate addMagazineCargoGlobal ["ItemSandbagExLarge", _numItems * 50];
+_spawnCrate addMagazineCargoGlobal ["PartPlankPack", _numItems * 50];
+_spawnCrate addMagazineCargoGlobal ["park_bench_kit", _numItems * 50];
+_spawnCrate addMagazineCargoGlobal ["ItemVault", _numItems * 50];
 
 // Send text to spawner only
 titleText [format[_crateName + " spawned!"],"PLAIN DOWN"]; titleFadeOut 4;
